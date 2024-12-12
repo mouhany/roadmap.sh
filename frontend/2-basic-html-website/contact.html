@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Website</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Basic HTML Website." />
+    <meta name="keywords" content="HTML, Website" />
+    <meta name="author" content="Your Name" />
+    <!-- OG Tags -->
+    <meta property=”og:image”
+    content=”https://assets.roadmap.sh/guest/portfolio-design-83lku.png” />
+    <meta property="og:title" content="Basic HTML Website" />
+    <meta property="og:description" content="Basic HTML Website." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://roadmap.sh/projects/basic-html-website"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="articles.html">Articles</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact</h2>
+      <form action="/submit" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="8" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+    <footer>&copy; All Rights Reserved 2025</footer>
+  </body>
+</html>

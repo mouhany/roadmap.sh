@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Personal Portfolio." />
+    <meta name="keywords" content="HTML, Website" />
+    <meta name="author" content="Your Name" />
+    <!-- OG Tags -->
+    <meta property=”og:image”
+    content=”https://assets.roadmap.sh/guest/portfolio-template-xdhki.png” />
+    <meta property="og:title" content="Personal Portfolio" />
+    <meta property="og:description" content="Personal Portfolio." />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://roadmap.sh/projects/portfolio-website"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="articles.html">Articles</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contact">
+      <h2>Contact</h2>
+      <form action="/submit" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="8" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+    <footer>&copy; All Rights Reserved 2025</footer>
+  </body>
+</html>

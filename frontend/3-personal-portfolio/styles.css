@@ -1,0 +1,312 @@
+:root {
+  color-scheme: light dark;
+  --light-background: #ffffff;
+  --light-text-body: #0f172a;
+  --text-link: #0ea5e9;
+  --light-text-link-hover: #0369a1;
+  --dark-background: #0f172a;
+  --dark-text-body: #e2e8f0;
+  --dark-text-link-hover: #7dd3fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: light-dark(var(--light-background), var(--dark-background));
+  color: light-dark(var(--light-text-body), var(--dark-text-body));
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5rem;
+  min-height: 100vh;
+}
+
+header,
+main,
+footer {
+  max-width: 1280px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+header {
+  background-color: light-dark(var(--light-background), var(--dark-background));
+  max-width: 1280px;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid gainsboro;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main {
+  flex: 1;
+  z-index: 0;
+}
+
+#hero {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 9rem 0;
+  text-align: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#articles,
+#contact,
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 10rem 1rem 0 1rem;
+  max-width: 640px;
+}
+
+.subcontent,
+#reviews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subcontent ul,
+#reviews ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+article h3 {
+  background-color: light-dark(var(--light-background), var(--dark-background));
+  padding: 1rem 0;
+  position: sticky;
+  top: 7rem;
+}
+
+.subcontent div,
+.subcontent ol,
+article div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#projects section ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.review {
+  padding: 1.5rem;
+  border: 1px solid gainsboro;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review div {
+  opacity: 50%;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input,
+textarea {
+  background-color: light-dark(var(--light-background), var(--dark-background));
+  color: light-dark(var(--light-text-body), var(--dark-text-body));
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.5rem;
+}
+
+button {
+  align-self: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: var(--text-link);
+  color: var(--light-background);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+  position: static;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  list-style: decimal;
+  margin-left: 1rem;
+}
+
+a,
+nav span {
+  text-decoration: none;
+  color: var(--text-link);
+}
+
+a:hover,
+nav span:hover {
+  color: var(--light-text-link-hover);
+}
+
+nav span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+nav label {
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    gap: 2rem;
+  }
+
+  #hero {
+    margin-top: 5rem;
+    padding: 12rem 0;
+  }
+
+  .subcontent {
+    gap: 3rem;
+  }
+
+  .subcontent ul {
+    gap: 2rem;
+  }
+
+  #content,
+  #reviews ul {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  #articles,
+  #contact,
+  #projects {
+    margin-top: 8rem;
+    width: 100%;
+  }
+
+  article h3 {
+    top: 4.65rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header,
+  main,
+  footer {
+    gap: 3rem;
+    margin: 0 3rem;
+  }
+
+  header {
+    margin: 0 3rem;
+  }
+
+  nav ul {
+    gap: 3rem;
+  }
+
+  #hero {
+    padding: 9rem 0;
+  }
+
+  .subcontent {
+    width: 33%;
+    gap: 2rem;
+  }
+
+  .subcontent ul {
+    gap: 1rem;
+  }
+
+  #articles,
+  #contact,
+  #projects {
+    margin: 8rem auto 0 auto;
+  }
+}
+
+@media (min-width: 1376px) {
+  header,
+  main,
+  footer {
+    margin: 0 auto;
+  }
+
+  header {
+    margin: 0 auto;
+  }
+
+  #hero {
+    padding: 15rem 0;
+  }
+}
