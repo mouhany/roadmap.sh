@@ -1,5 +1,4 @@
 :root {
-  color-scheme: light dark;
   --light-background: #ffffff;
   --light-text-body: #0f172a;
   --text-link: #0ea5e9;
@@ -16,8 +15,8 @@
 }
 
 body {
-  background-color: light-dark(var(--light-background), var(--dark-background));
-  color: light-dark(var(--light-text-body), var(--dark-text-body));
+  background-color: var(--light-background);
+  color: var(--light-text-body);
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,7 @@ body {
 header,
 main,
 footer {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -37,8 +36,8 @@ footer {
 }
 
 header {
-  background-color: light-dark(var(--light-background), var(--dark-background));
-  max-width: 1280px;
+  background-color: var(--light-background);
+  max-width: 1440px;
   margin: 0 1rem;
   padding: 1rem 0;
   position: fixed;
@@ -66,12 +65,12 @@ main {
 
 #hero {
   margin-top: 7rem;
+  padding: 9rem 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  padding: 9rem 0;
   text-align: center;
 }
 
@@ -113,7 +112,7 @@ article {
 }
 
 article h3 {
-  background-color: light-dark(var(--light-background), var(--dark-background));
+  background-color: var(--light-background);
   padding: 1rem 0;
   position: sticky;
   top: 7rem;
@@ -163,8 +162,8 @@ form div {
 
 input,
 textarea {
-  background-color: light-dark(var(--light-background), var(--dark-background));
-  color: light-dark(var(--light-text-body), var(--dark-text-body));
+  background-color: var(--light-background);
+  color: var(--light-text-body);
   width: 100%;
   padding: 0.5rem;
   border: 1px solid gainsboro;
@@ -178,6 +177,11 @@ button {
   border-radius: 0.5rem;
   background-color: var(--text-link);
   color: var(--light-background);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--light-text-link-hover);
 }
 
 footer {
@@ -295,7 +299,7 @@ nav label {
   }
 }
 
-@media (min-width: 1376px) {
+@media (min-width: 1536px) {
   header,
   main,
   footer {
@@ -307,6 +311,45 @@ nav label {
   }
 
   #hero {
-    padding: 15rem 0;
+    padding: 18rem 0;
+  }
+
+  #articles,
+  #contact,
+  #projects {
+    max-width: 1024px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+  }
+
+  header {
+    background-color: var(--dark-background);
+  }
+
+  article h3 {
+    background-color: var(--dark-background);
+  }
+
+  input,
+  textarea {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+  }
+
+  a:hover,
+  nav span:hover {
+    color: var(--dark-text-link-hover);
+  }
+
+  button {
+    color: var(--dark-background);
+  }
+  button:hover {
+    background-color: var(--dark-text-link-hover);
   }
 }
