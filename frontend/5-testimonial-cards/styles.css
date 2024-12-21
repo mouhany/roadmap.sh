@@ -1,0 +1,248 @@
+:root {
+  --light-background: #fafafa;
+  --light-text-body: #171717;
+  --light-text-secondary: #a3a3a3;
+  --dark-background: #171717;
+  --dark-text-body: #e5e5e5;
+  --dark-text-secondary: #525252;
+  --accent: #eab308;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-background);
+  color: var(--light-text-body);
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  text-align: left;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  flex: 1;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#testimonial1,
+#testimonial2,
+#testimonial3,
+#testimonial4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#testimonial1 .testimonial-text,
+#testimonial3 div {
+  background-color: var(--dark-background);
+  color: var(--dark-text-body);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  line-height: 1.75;
+  position: relative;
+}
+
+#testimonial1 .testimonial-text::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 2.5rem;
+  z-index: 0;
+  width: 2rem;
+  height: 1rem;
+  background-color: var(--dark-background);
+  clip-path: polygon(50% 100%, 0 0, 100% 0); /* https://bennettfeely.com/clippy/ */
+}
+
+#testimonial1 .testimonial-cred {
+  margin: 0 1rem;
+}
+
+.testimonial-cred {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonial-cred-position {
+  color: var(--light-text-secondary);
+}
+
+#testimonial2,
+#testimonial4 {
+  border: 2px solid var(--light-text-body);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  justify-content: space-between;
+}
+
+.avatar-small,
+.avatar-small-transparent {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.avatar-small-transparent {
+  opacity: 50%;
+  filter: grayscale();
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-big {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 1.5rem;
+}
+
+#testimonial3 {
+  align-items: center;
+}
+
+#testimonial3 div {
+  align-self: stretch;
+}
+
+#testimonial3 div::after {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2rem;
+  height: 1rem;
+  background-color: var(--dark-background);
+  clip-path: polygon(50% 0, 0 100%, 100% 100%); /* https://bennettfeely.com/clippy/ */
+}
+
+#stars {
+  display: flex;
+  flex-direction: row;
+  width: 6rem;
+  color: var(--accent);
+}
+
+#stars svg {
+  fill: var(--accent);
+}
+
+#testimonial4 {
+  text-align: center;
+  align-items: center;
+}
+
+#carousel {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#carousel button {
+  background-color: transparent;
+  border: transparent;
+  padding: 0.5rem;
+  color: var(--light-text-body);
+}
+
+#carousel button:hover {
+  color: var(--light-text-secondary);
+  cursor: pointer;
+}
+
+#carousel svg {
+  width: auto;
+  height: 1.25rem;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #section1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  #testimonial1,
+  #testimonial2 {
+    grid-column: span 1 / span 1;
+  }
+
+  #testimonial3 {
+    flex-direction: row;
+  }
+
+  #testimonial3 div::after {
+    top: 50%;
+    left: -1rem;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 2rem;
+    clip-path: polygon(0 50%, 100% 100%, 100% 0); /* https://bennettfeely.com/clippy/ */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+  }
+
+  #testimonial1 .testimonial-text,
+  #testimonial1 .testimonial-text::after,
+  #testimonial3 div,
+  #testimonial3 div::after {
+    background-color: var(--light-background);
+    color: var(--light-text-body);
+  }
+
+  #testimonial2,
+  #testimonial4 {
+    border: 2px solid var(--dark-text-body);
+  }
+
+  .avatar-small,
+  .avatar-small-transparent,
+  .avatar-big {
+    filter: invert(100%);
+  }
+
+  #carousel button {
+    color: var(--dark-text-body);
+  }
+
+  #carousel button:hover {
+    color: var(--dark-text-secondary);
+  }
+}
