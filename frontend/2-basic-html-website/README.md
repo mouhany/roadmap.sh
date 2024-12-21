@@ -12,7 +12,7 @@
 
 | Page     | Preview                                                  |
 | -------- | -------------------------------------------------------- |
-| Index    | ![Preview Index](./2-basic-html-website-index.png)       |
-| Projects | ![Preview Projects](./2-basic-html-website-projects.png) |
-| Articles | ![Preview Articles](./2-basic-html-website-articles.png) |
-| Contact  | ![Preview Contact](./2-basic-html-website-contact.png)   |
+| Index    | ![Preview Index](./preview/2-basic-html-website-index.png)       |
+| Projects | ![Preview Projects](./preview/2-basic-html-website-projects.png) |
+| Articles | ![Preview Articles](./preview/2-basic-html-website-articles.png) |
+| Contact  | ![Preview Contact](./preview/2-basic-html-website-contact.png)   |
