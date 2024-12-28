@@ -10,7 +10,7 @@
   - a password toggle button
   - a progress bar
   - a checklist
-- Use <label> elements, ARIA attributes, and proper focus states for accessibility.
+- Use `<label>` elements, ARIA attributes, and proper focus states for accessibility.
 - Ensure clear error messaging and sufficient color contrast.
 - Style the form using CSS with Flexbox or Grid for layout.
 - Make the design responsive and customizable.

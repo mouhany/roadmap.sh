@@ -114,7 +114,7 @@ main {
 }
 
 #form-checklist .list-incomplete {
-  margin: 0 1.75rem;
+  margin-left: 1.5rem;
 }
 
 #form-checklist .list-todo {
