@@ -14,3 +14,4 @@ Link: https://roadmap.sh/
 | 4   | Beginner | https://roadmap.sh/projects/changelog-component | [Changelog Component](/frontend/4-changelog-component/) |
 | 5   | Beginner | https://roadmap.sh/projects/testimonial-cards   | [Testimonial Cards](/frontend/5-testimonial-cards/)     |
 | 6   | Beginner | https://roadmap.sh/projects/datepicker-ui       | [Datepicker UI](/frontend/6-datepicker-ui/)             |
+| 7   | Beginner | https://roadmap.sh/projects/accessible-form-ui  | [Accessible Form UI](/frontend/7-accessible-form-ui/)   |

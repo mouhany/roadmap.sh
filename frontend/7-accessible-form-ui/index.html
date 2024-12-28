@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Form</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Accessible Form</h1>
+    </header>
+    <main>
+      <div id="form-progress">
+        <h2 id="progress-bar-label">Profile Completeness</h2>
+        <div
+          id="progress-bar"
+          role="progressbar"
+          aria-valuenow="65"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-labelledby="progress-bar-label"
+        >
+          <span id="progress">65%</span>
+        </div>
+      </div>
+      <div id="form-section">
+        <ul id="form-checklist">
+          <li class="list-complete" aria-checked="true">
+            <span
+              ><svg
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </span>
+            <p>Create Account</p>
+          </li>
+          <li class="list-complete" aria-checked="true">
+            <span>
+              <svg
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </span>
+            <p>Update Roadmap Progress</p>
+          </li>
+          <li class="list-complete" aria-checked="true">
+            <span
+              ><svg
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </span>
+            <p>Setup Public Profile</p>
+          </li>
+          <li class="list-incomplete list-todo">
+            <p>Complete your first project</p>
+          </li>
+          <li class="list-incomplete">
+            <p>Invite your Friends</p>
+          </li>
+        </ul>
+        <form action="">
+          <div class="form-input">
+            <label for="form-name">Full Name</label>
+            <div class="input-group">
+              <input
+                type="text"
+                id="form-name"
+                name="form-name"
+                required
+                aria-required="true"
+              />
+              <span class="form-error">
+                <!-- <small>preserved space for error message</small> -->
+              </span>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="form-email">Email</label>
+            <div class="input-group">
+              <input
+                type="email"
+                name="form-email"
+                id="form-email"
+                required
+                aria-required="true"
+              />
+              <span class="form-error">
+                <svg
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
+                  />
+                </svg>
+                <small>Email is already taken</small>
+              </span>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="form-password">Enter Password</label>
+            <div class="input-group">
+              <div class="input-group-button">
+                <input
+                  type="password"
+                  name="form-password"
+                  id="form-password"
+                  required
+                  aria-required="true"
+                />
+                <button
+                  type="button"
+                  class="toggle-visibility"
+                  aria-pressed="false"
+                  aria-label="Show password"
+                >
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <span class="form-error">
+                <!-- <small>preserved space for error message</small> -->
+              </span>
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="form-confirmation">Confirm Password</label>
+            <div class="input-group">
+              <div class="input-group-button">
+                <input
+                  type="password"
+                  name="form-confirmation"
+                  id="form-confirmation"
+                  required
+                  aria-required="true"
+                />
+                <button
+                  type="button"
+                  class="toggle-visibility"
+                  aria-pressed="false"
+                  aria-label="Show password"
+                >
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <span class="form-error">
+                <!-- <small>preserved space for error message</small> -->
+              </span>
+            </div>
+          </div>
+          <button type="submit" id="form-submit" aria-label="Update profile">
+            Update Profile
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>&copy; 2024</footer>
+  </body>
+</html>
