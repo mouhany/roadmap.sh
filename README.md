@@ -15,3 +15,4 @@ Link: https://roadmap.sh/
 | 5   | Beginner | https://roadmap.sh/projects/testimonial-cards   | [Testimonial Cards](/frontend/5-testimonial-cards/)     |
 | 6   | Beginner | https://roadmap.sh/projects/datepicker-ui       | [Datepicker UI](/frontend/6-datepicker-ui/)             |
 | 7   | Beginner | https://roadmap.sh/projects/accessible-form-ui  | [Accessible Form UI](/frontend/7-accessible-form-ui/)   |
+| 8   | Beginner | https://roadmap.sh/projects/image-grid          | [Image Grid Layout](/frontend/8-image-grid-layout/)     |
