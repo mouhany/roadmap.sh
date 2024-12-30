@@ -1,0 +1,195 @@
+:root {
+  --light-background: #fafafa;
+  --light-background-secondary: #e5e5e5;
+  --light-text-body: #171717;
+  --light-text-secondary: #a3a3a3;
+
+  --dark-background: #171717;
+  --dark-background-secondary: #404040;
+  --dark-text-body: #e5e5e5;
+  --dark-text-secondary: #525252;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-background);
+  color: var(--light-text-body);
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+main,
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+  height: 100%;
+  flex: 1;
+  margin-top: 1.5rem;
+}
+
+li {
+  list-style: none;
+  font-size: larger;
+  letter-spacing: 0.05rem;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-text-body);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.tooltip {
+  opacity: 20%;
+  position: absolute;
+  bottom: 3rem;
+  width: max-content;
+  left: 50%;
+  background-color: var(--dark-background-secondary);
+  color: var(--dark-text-body);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  width: 1rem;
+  height: 0.5rem;
+  background-color: var(--dark-background-secondary);
+  clip-path: polygon(
+    50% 100%,
+    0 0,
+    100% 0
+  ); /* https://bennettfeely.com/clippy/ */
+}
+
+a:hover {
+  background-color: var(--light-background-secondary);
+  transition: opacity 0.3s ease-out;
+}
+
+a:hover .tooltip {
+  opacity: 100%;
+}
+
+/* animations */
+#nav-home .tooltip {
+  transform: translate(-50%, 1rem);
+  opacity: 0;
+}
+#nav-home:hover .tooltip {
+  transform: translate(-50%, 0);
+  opacity: 100%;
+}
+
+#nav-projects .tooltip {
+  transform: translate(-50%, 0) scale(80%);
+  opacity: 0;
+}
+#nav-projects:hover .tooltip {
+  transform: translate(-50%, 0) scale(100%);
+  opacity: 100%;
+}
+
+#nav-blog .tooltip {
+  transform: translate(-50%, -1rem);
+  opacity: 0;
+}
+#nav-blog:hover .tooltip {
+  transform: translate(-50%, 0);
+  opacity: 100%;
+}
+
+#nav-contact .tooltip {
+  transform: translate(-50%, 0) scale(120%);
+  opacity: 0;
+}
+#nav-contact:hover .tooltip {
+  transform: translate(-50%, 0) scale(100%);
+  opacity: 100%;
+}
+
+footer {
+  color: var(--light-text-secondary);
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    gap: 9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  li {
+    min-width: 12rem;
+  }
+
+  .tooltip {
+    width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--dark-text-body);
+  }
+
+  .tooltip {
+    background-color: var(--light-background-secondary);
+    color: var(--light-text-body);
+  }
+
+  .tooltip::after {
+    background-color: var(--light-background-secondary);
+  }
+
+  a:hover {
+    background-color: var(--dark-background-secondary);
+  }
+
+  footer {
+    color: var(--dark-text-secondary);
+  }
+}
