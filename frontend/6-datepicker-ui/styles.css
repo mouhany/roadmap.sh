@@ -143,7 +143,7 @@ input:focus {
     color: var(--dark-text-secondary);
   }
 
-  body {
+  body, input {
     background-color: var(--dark-background);
     color: var(--dark-text-body);
     caret-color: var(--dark-text-body);
