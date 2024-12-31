@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+Link: https://roadmap.sh/projects/portfolio-website
+
 ## Key requirements:
 
 - A fully styled, responsive website with the same structure as the previous project.
@@ -16,8 +18,9 @@
 ## Preview
 
 ### 24-inch Desktop Screen
-| Page     | Preview Light                                            | Preview Dark                                           |
-| -------- | -------------------------------------------------------- | ------------------------------------------------------ |
+
+| Page     | Preview Light                                             | Preview Dark                                            |
+| -------- | --------------------------------------------------------- | ------------------------------------------------------- |
 | Index    | ![Index Light](./preview/3-light-desktop-index.png)       | ![Index Dark](./preview/3-dark-desktop-index.png)       |
 | Projects | ![Projects Light](./preview/3-light-desktop-projects.png) | ![Projects Dark](./preview/3-dark-desktop-projects.png) |
 | Articles | ![Articles Light](./preview/3-light-desktop-articles.png) | ![Articles Dark](./preview/3-dark-desktop-articles.png) |

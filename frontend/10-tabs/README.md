@@ -1,5 +1,7 @@
 # Tabs
 
+Link: https://roadmap.sh/projects/simple-tabs
+
 ## Key Requirements:
 
 - Create a simple tabs functionality using HTML, CSS, and JavaScript.

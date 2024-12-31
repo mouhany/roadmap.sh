@@ -1,5 +1,7 @@
 # Basic HTML Website
 
+Link: https://roadmap.sh/projects/basic-html-website
+
 ## Key requirements:
 
 - Should have the following pages: Homepage, Projects, Articles, and Contact.
@@ -10,8 +12,8 @@
 
 ## Preview
 
-| Page     | Preview                                                  |
-| -------- | -------------------------------------------------------- |
+| Page     | Preview                                                          |
+| -------- | ---------------------------------------------------------------- |
 | Index    | ![Preview Index](./preview/2-basic-html-website-index.png)       |
 | Projects | ![Preview Projects](./preview/2-basic-html-website-projects.png) |
 | Articles | ![Preview Articles](./preview/2-basic-html-website-articles.png) |
