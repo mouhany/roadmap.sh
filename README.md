@@ -18,3 +18,4 @@ Link: https://roadmap.sh/
 | 8   | Beginner | https://roadmap.sh/projects/image-grid          | [Image Grid Layout](/frontend/08-image-grid-layout/)     |
 | 9   | Beginner | https://roadmap.sh/projects/tooltip-ui          | [Tooltip UI](/frontend/09-tooltip-ui/)                   |
 | 10  | Beginner | https://roadmap.sh/projects/simple-tabs         | [Tabs](/frontend/10-tabs/)                               |
+| 11  | Beginner | https://roadmap.sh/projects/cookie-consent      | [Cookie Consent](/frontend/11-cookie-consent/)           |
