@@ -184,6 +184,7 @@ main {
 }
 
 footer {
+  color: var(--light-text-secondary);
   text-align: center;
 }
 
@@ -245,4 +246,9 @@ footer {
   #carousel button:hover {
     color: var(--dark-text-secondary);
   }
+
+  footer {
+    color: var(--dark-text-secondary);
+  }
+
 }

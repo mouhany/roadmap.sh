@@ -1,0 +1,162 @@
+:root {
+  --light-background: #fafafa;
+  --light-background-secondary: #e5e5e5;
+  --light-text-body: #171717;
+  --light-text-secondary: #a3a3a3;
+  --light-limit: #b91c1c;
+
+  --dark-background: #171717;
+  --dark-background-secondary: #404040;
+  --dark-text-body: #e5e5e5;
+  --dark-text-secondary: #525252;
+  --dark-limit: #ef4444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: var(--light-text-secondary);
+}
+
+body {
+  background-color: var(--light-background);
+  color: var(--light-text-body);
+  caret-color: var(--light-text-body);
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+header,
+main,
+footer {
+  margin: 0 1rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  gap: 1rem;
+  flex: 1;
+  justify-content: center;
+  text-align: left;
+  margin: auto;
+}
+
+#textarea-container {
+  border: 1px solid var(--light-text-secondary);
+  background-color: var(--light-background);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+#textarea-container.limit-border {
+  border: 1px solid var(--light-limit);
+}
+
+#textarea-container:focus-within {
+  border: 2px solid var(--light-text-secondary);
+}
+
+#textarea-container:focus-within.limit-border {
+  border: 2px solid var(--light-limit);
+}
+
+textarea {
+  background-color: var(--light-background);
+  color: var(--light-text-body);
+  outline: none;
+  border: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+textarea.limit-text {
+  color: var(--light-limit);
+}
+
+#textarea-counter {
+  background-color: var(--light-background);
+  color: var(--light-text-secondary);
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+#textarea-counter.limit-text {
+  color: var(--light-limit);
+}
+
+footer {
+  color: var(--light-text-secondary);
+}
+
+@media (min-width: 768px) {
+  header,
+  footer {
+    margin: 0 2rem;
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  header,
+  footer {
+    margin: 0 3rem;
+    padding: 3rem 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  ::placeholder {
+    color: var(--dark-text-secondary);
+  }
+
+  body {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+    caret-color: var(--dark-text-body);
+  }
+
+  #textarea-container {
+    border: 1px solid var(--dark-text-secondary);
+    background-color: var(--dark-background);
+  }
+  #textarea-container.limit-border {
+    border: 1px solid var(--dark-limit);
+  }
+
+  #textarea-container:focus-within {
+    border: 2px solid var(--dark-text-secondary);
+  }
+  #textarea-container:focus-within.limit-border {
+    border: 2px solid var(--dark-limit);
+  }
+
+  textarea {
+    background-color: var(--dark-background);
+    color: var(--dark-text-body);
+  }
+  textarea.limit-text {
+    color: var(--dark-limit);
+  }
+
+  #textarea-counter {
+    background-color: var(--dark-background);
+    color: var(--dark-text-secondary);
+  }
+  #textarea-counter.limit-text {
+    color: var(--dark-limit);
+  }
+
+  footer {
+    color: var(--dark-text-secondary);
+  }
+}

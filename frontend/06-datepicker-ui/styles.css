@@ -138,12 +138,17 @@ input:focus {
   box-shadow: none;
 }
 
+footer {
+  color: var(--light-text-secondary);
+}
+
 @media (prefers-color-scheme: dark) {
   ::placeholder {
     color: var(--dark-text-secondary);
   }
 
-  body, input {
+  body,
+  input {
     background-color: var(--dark-background);
     color: var(--dark-text-body);
     caret-color: var(--dark-text-body);
@@ -176,5 +181,9 @@ input:focus {
   #calendar-date button.current-day {
     color: var(--dark-background);
     background-color: var(--dark-accent);
+  }
+
+  footer {
+    color: var(--dark-text-secondary);
   }
 }

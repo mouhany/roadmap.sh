@@ -114,14 +114,14 @@ Link: https://roadmap.sh/
         </a>
       </td>
     </tr>
-    <!-- <tr>
+    <tr>
       <td>12</td>
-      <td><a href="/frontend/12-restricted-text-area/">Restricted Text Area</a></td>
+      <td><a href="/frontend/12-restricted-textarea/">Restricted Textarea</a></td>
       <td>
-        <a href="https://mouhany.github.io/roadmap.sh/frontend/12-restricted-text-area/" target="_blank">
-          <img src="./frontend/12-restricted-text-area/preview/12-dark-laptop.png" alt="Restricted Text Area" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/12-restricted-textarea/" target="_blank">
+          <img src="./frontend/12-restricted-textarea/preview/12-dark-laptop.png" alt="Restricted Textarea" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-    </tr> -->
+    </tr>
   </tbody>
 </table>

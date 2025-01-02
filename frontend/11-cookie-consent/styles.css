@@ -47,6 +47,10 @@ footer {
   text-align: center;
 }
 
+footer {
+  color: var(--light-text-secondary);
+}
+
 #cookie-container {
   background-color: var(--light-background-secondary);
   flex-direction: column;
@@ -131,6 +135,10 @@ footer {
   body {
     background-color: var(--dark-background);
     color: var(--dark-text-body);
+  }
+
+  footer {
+    color: var(--dark-text-secondary);
   }
 
   #cookie-container {
