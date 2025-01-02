@@ -11,7 +11,7 @@ Link: https://roadmap.sh/
     <tr>
       <th>No.</th>
       <th>Code</th>
-      <th>Deployment</th>
+      <th>Live</th>
     </tr>
   </thead>
   <tbody>
