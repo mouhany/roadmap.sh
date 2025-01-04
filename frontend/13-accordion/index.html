@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Accordion</h1></header>
+    <main>
+      <section>
+        <div class="accordion-title" data-content="accordion1">
+          <h2>What is roadmap.sh?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion1">
+          <p>
+            roadmap.sh contains community-curated roadmaps, study plans, paths,
+            and resources for developers. There are role-based roadmaps, listing
+            skills you should know for any given role, as well as skill-based
+            roadmaps listing items to learn for any given skill.
+          </p>
+          <p>
+            It started as a set of
+            <a href="https://github.com/kamranahmedse/developer-roadmap"
+              >visual charts on GitHub</a
+            >
+            to guide developers who are confused about what they should learn
+            next, but then expanded into interactive roadmaps where you can
+            click and get resources to learn any given resource, contribute by
+            adding new roadmaps, suggest changes to existing roadmaps, track
+            your progress as you follow a roadmap and so on.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion2">
+          <h2>How are roadmaps created?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion2">
+          <p>
+            The project has a strong community that powers everything on the
+            website. It is
+            <a
+              href="https://github.com/search?o=desc&q=stars%3A%3E100000&s=stars&type=Repositories"
+              >the 7th most starred opensource project on GitHub</a
+            >
+            and gets visited by hundreds of thousands of developers every month.
+            We also have newsletter with 150,000+ developers. All the roadmaps
+            are created and reviewed by community and several subject matter
+            experts. Also, anyone can suggest changes to any roadmap and we have
+            a process to review and approve them.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion3">
+          <h2>What are the plans for roadmap.sh?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion3">
+          <p>
+            Our long-term plan is to make roadmap.sh a go-to place for
+            developers whenever they plan on learning something new. We started
+            with roadmaps, guides, videos and other visual content but we plan
+            on introducing best practices, best-practices for certain tasks,
+            quizzes to test your knowledge and prepare yourself for the
+            interviews, project ideas to work on while following the roadmaps,
+            public profiles to share your progress and interact with the other
+            learners and so on.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion4">
+          <h2>How is roadmap.sh built?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion4">
+          <p>
+            The website is built with
+            <a href="https://astro.build/">Astro</a> and
+            <a href="https://tailwindcss.com/">Tailwind</a> and is deployed to
+            <a href="https://pages.github.com/">Github pages</a>. The project is
+            open-core and the codebase
+            <a href="https://github.com/kamranahmedse/developer-roadmap"
+              >can be found on GitHub</a
+            >
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion5">
+          <h2>How can I add a new roadmap?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion5">
+          <p>
+            For new roadmaps, please open an issue with the textual description
+            of the roadmap in the form of bulleted list. Here is an
+            <a
+              href="https://github.com/kamranahmedse/developer-roadmap/issues/1387#issue-1329276631"
+              >example contribution of a new roadmap.</a
+            >
+          </p>
+          <p>
+            Find more details in the
+            <a
+              href="https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md"
+              >contribution docs.</a
+            >
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion6">
+          <h2>How can I update an existing roadmap?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion6">
+          <p>
+            Please have a look at the
+            <a
+              href="https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md"
+              >contribution docs</a
+            >
+            for details.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion7">
+          <h2>How can I add content to existing roadmaps?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion7">
+          <p>
+            Please have a look at the
+            <a
+              href="https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md"
+              >contribution docs</a
+            >
+            for details.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="accordion-title" data-content="accordion8">
+          <h2>Can I redistribute the content?</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+        </div>
+        <div class="accordion-content" id="accordion8">
+          <p>
+            No, the license of the content on this website does not allow you to
+            redistribute any of the content on this website anywhere. You can
+            use it for personal use or share the link to the content if you have
+            to but redistribution is not allowed.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2025</footer>
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
