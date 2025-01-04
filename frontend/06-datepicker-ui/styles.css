@@ -26,19 +26,25 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  min-height: 100vh;
-  padding: 2rem;
+  min-height: 100dvh;
   caret-color: var(--light-text-body);
 }
 
-main {
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+
+main {
   gap: 1rem;
   flex: 1;
-  max-width: 960px;
-  margin: auto;
 }
 
 #calendar-input {
@@ -47,14 +53,19 @@ main {
   align-items: center;
   border: 1px solid var(--light-text-secondary);
   border-radius: 1rem;
-  padding: 0 1rem;
+  padding: 0.5rem 1.5rem;
 }
 
 #calendar-input input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 100%;
   width: 100%;
   background-color: transparent;
   border: none;
-  padding: 0.5rem;
+}
+
+#calendar-input:focus-within {
+  border: 2px solid var(--light-text-secondary);
 }
 
 #calendar {
@@ -93,7 +104,7 @@ main {
 #calendar-date {
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
 #calendar-days h3 {
@@ -109,9 +120,11 @@ main {
 
 #calendar-date button {
   font-family: monospace;
+  font-size: 100%;
 }
 
 #calendar-date button:hover,
+#calendar-date button:focus,
 #calendar-date button.current-day {
   color: var(--light-background);
   background-color: var(--light-accent);
@@ -122,7 +135,7 @@ main {
 
 button {
   background-color: transparent;
-  border: transparent;
+  border: none;
   padding: 0.5rem;
   text-align: center;
   cursor: pointer;
@@ -140,6 +153,26 @@ input:focus {
 
 footer {
   color: var(--light-text-secondary);
+}
+
+@media (min-width: 768px) {
+  header,
+  main,
+  footer {
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  header,
+  main,
+  footer {
+    padding: 3rem 0;
+  }
+
+  main{
+    gap: 1.5rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -178,6 +211,7 @@ footer {
   }
 
   #calendar-date button:hover,
+  #calendar-date button:focus,
   #calendar-date button.current-day {
     color: var(--dark-background);
     background-color: var(--dark-accent);

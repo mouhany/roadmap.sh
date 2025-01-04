@@ -22,9 +22,19 @@ body {
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   text-align: center;
-  min-height: 100vh;
-  padding: 2rem;
+  min-height: 100dvh;
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 main,
@@ -33,9 +43,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  max-width: 960px;
   width: 100%;
-  margin: auto;
 }
 
 nav ul {
@@ -45,7 +53,6 @@ nav ul {
   gap: 6rem;
   height: 100%;
   flex: 1;
-  margin-top: 1.5rem;
 }
 
 li {
@@ -143,12 +150,26 @@ footer {
 }
 
 @media (min-width: 768px) {
+  header,
+  main,
+  footer {
+    margin: 0 2rem;
+    padding: 2rem 0;
+  }
+
   nav ul {
     gap: 9rem;
   }
 }
 
 @media (min-width: 1024px) {
+  header,
+  main,
+  footer {
+    margin: 0 auto;
+    padding: auto 0;
+  }
+
   nav ul {
     flex-direction: row;
     align-items: center;
@@ -162,6 +183,14 @@ footer {
 
   .tooltip {
     width: 100%;
+  }
+}
+
+@media(min-width:1536px) {
+  header,
+  main,
+  footer {
+    padding: 3rem 0;
   }
 }
 

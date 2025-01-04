@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const textareaCounter = document.querySelector("#textarea-counter");
   const maxLength = textareaInput.getAttribute("maxlength");
 
+  textareaInput.value =
+    "You are required to create a textarea that tracks and displays the number of characters typed by the user, along with a maximum character limit. As the user types, the character count will update dynamically. Once the limit is reached, the textarea";
+
+  textareaCounter.textContent = "248 / 2";
+
   textareaInput.addEventListener("input", () => {
     const charLength = textareaInput.value.length;
     const charLeft = maxLength - charLength;

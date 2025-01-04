@@ -29,26 +29,22 @@
 }
 
 body {
+  caret-color: var(--light-text-body);
   background-color: var(--light-background);
   color: var(--light-text-body);
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  min-height: 100vh;
-  padding: 1rem;
-  caret-color: var(--light-text-body);
+  gap: 2rem;
+  min-height: 100dvh;
 }
 
 header,
 main,
 footer {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
   max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
+  margin: 0 1rem;
+  padding: 1rem 0;
 }
 
 header,
@@ -57,12 +53,15 @@ footer {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   flex: 1;
 }
 
 #form-progress {
   background-color: var(--light-background-secondary);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -72,7 +71,7 @@ main {
 #progress-bar {
   border: transparent;
   background-color: var(--light-background-progress);
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
@@ -84,7 +83,7 @@ main {
   display: flex;
   flex-direction: row-reverse;
   font-weight: 600;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 #form-section {
@@ -101,7 +100,7 @@ main {
   flex-direction: column;
   gap: 1rem;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 1/3;
 }
 
@@ -124,10 +123,10 @@ main {
 form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 100%;
   background-color: var(--light-background-secondary);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
 }
 
@@ -182,7 +181,7 @@ form {
   cursor: pointer;
   border-radius: 0.5rem;
   border: none;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .input-group-button button:hover {
@@ -190,18 +189,25 @@ form {
 }
 
 #form-submit {
-  align-self: flex-end;
-  padding: 1rem 2rem;
-  border-radius: 1rem;
-  border: transparent;
   background-color: var(--light-accent);
   color: var(--light-background);
+  font-family: "PT Sans", sans-serif;
+  font-size: medium;
   font-weight: 600;
+  align-self: flex-end;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
 }
 
 #form-submit:hover {
   cursor: pointer;
   box-shadow: 0px 18px 40px -12px rgba(var(--light-accent-rgb), 0.35);
+}
+
+input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 100%;
 }
 
 input:focus {
@@ -236,8 +242,11 @@ footer {
 }
 
 @media (min-width: 768px) {
-  body {
-    padding: 2rem;
+  header,
+  main,
+  footer {
+    margin: 0 2rem;
+    padding: 2rem 0;
   }
 
   main,
@@ -262,6 +271,12 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  header,
+  main,
+  footer {
+    margin: 0 auto;
+  }
+
   #form-progress,
   form {
     padding: 1.5rem;
@@ -273,14 +288,11 @@ footer {
 }
 
 @media (min-width: 1536px) {
-  body {
-    padding: 3rem;
-  }
-
   header,
   main,
   footer {
     max-width: 1280px;
+    padding: 3rem 0;
   }
 
   #form-progress,
@@ -310,10 +322,6 @@ footer {
   .input-group-button,
   .form-error {
     grid-column: span 9 / span 9;
-  }
-
-  .input-group input {
-    padding: 0.75rem 1rem;
   }
 }
 

@@ -21,10 +21,17 @@ body {
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  text-align: left;
-  min-height: 100vh;
-  margin: 2rem;
+  gap: 2rem;
+  min-height: 100dvh;
+}
+
+header,
+main,
+footer {
+  margin: 0 1rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -32,8 +39,6 @@ header {
 }
 
 main {
-  display: flex;
-  flex-direction: column;
   gap: 3rem;
   flex: 1;
 }
@@ -78,14 +83,14 @@ main {
 }
 
 .log time {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   position: relative;
   font-family: monospace;
 }
 
 .log-data {
   background-color: var(--light-background-secondary);
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -110,23 +115,33 @@ main {
 }
 
 button {
-  font-weight: 600;
-  align-self: center;
-  padding: 1rem 1.5rem;
-  border: 1px solid transparent;
-  border-radius: 1rem;
   background-color: var(--light-text-body);
   color: var(--light-background);
+
+  font-family: "PT Sans", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  align-self: center;
   cursor: pointer;
 }
 
 footer {
-  text-align: center;
-  position: static;
   color: var(--light-text-secondary);
+  text-align: center;
 }
 
 @media (min-width: 768px) {
+  header,
+  main,
+  footer {
+    margin: 0 2rem;
+    padding: 2rem 0;
+  }
+
   .log {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -159,7 +174,7 @@ footer {
   header,
   main,
   footer {
-    margin: auto;
+    margin: 0 auto;
   }
 
   .log time {
@@ -172,6 +187,22 @@ footer {
 
   .log::before {
     top: 2rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  header,
+  main,
+  footer {
+    padding: 3rem 0;
+  }
+
+  header {
+    gap: 2rem;
+  }
+
+  main {
+    gap: 4rem;
   }
 }
 
@@ -194,10 +225,10 @@ footer {
     color: var(--dark-text-secondary);
   }
 
-button {
-  background-color: var(--dark-text-body);
-  color: var(--dark-background);
-}
+  button {
+    background-color: var(--dark-text-body);
+    color: var(--dark-background);
+  }
 
   footer {
     color: var(--dark-text-secondary);

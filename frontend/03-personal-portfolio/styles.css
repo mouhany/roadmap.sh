@@ -1,10 +1,14 @@
 :root {
   --light-background: #ffffff;
+  --light-background-secondary: #e2e8f0;
   --light-text-body: #0f172a;
-  --text-link: #0ea5e9;
+  --light-text-secondary: #94a3b8;
   --light-text-link-hover: #0369a1;
+  --text-link: #0ea5e9;
   --dark-background: #0f172a;
+  --dark-background-secondary: #1e293b;
   --dark-text-body: #e2e8f0;
+  --dark-text-secondary: #475569;
   --dark-text-link-hover: #7dd3fc;
 }
 
@@ -20,9 +24,8 @@ body {
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  text-align: left;
-  gap: 5rem;
-  min-height: 100vh;
+  gap: 2rem;
+  min-height: 100dvh;
 }
 
 header,
@@ -30,24 +33,19 @@ main,
 footer {
   max-width: 1440px;
   margin: 0 1rem;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
 }
 
 header {
   background-color: var(--light-background);
-  max-width: 1440px;
-  margin: 0 1rem;
-  padding: 1rem 0;
+  border-bottom: 1px solid var(--light-text-secondary);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  flex-direction: column;
   gap: 1rem;
-  border-bottom: 1px solid gainsboro;
   z-index: 1;
 }
 
@@ -55,16 +53,22 @@ nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 main {
+  margin-top: 7rem;
   flex: 1;
   z-index: 0;
+  gap: 3rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--light-text-secondary);
 }
 
 #hero {
-  margin-top: 7rem;
   padding: 9rem 0;
   display: flex;
   flex-direction: column;
@@ -86,7 +90,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 10rem 1rem 0 1rem;
+  margin: 7rem 1rem 0 1rem;
   max-width: 640px;
 }
 
@@ -108,7 +112,6 @@ main {
 article {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 article h3 {
@@ -133,16 +136,16 @@ article div {
 }
 
 .review {
-  padding: 1.5rem;
-  border: 1px solid gainsboro;
-  border-radius: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--light-text-secondary);
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .review div {
-  opacity: 50%;
+  color: var(--light-text-secondary);
   font-weight: 600;
   display: flex;
   flex-direction: column;
@@ -164,31 +167,36 @@ input,
 textarea {
   background-color: var(--light-background);
   color: var(--light-text-body);
+  border: 1px solid var(--light-text-secondary);
+  font-family: "PT Sans", sans-serif;
+  font-size: 100%;
   width: 100%;
-  padding: 0.5rem;
-  border: 1px solid gainsboro;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
 
+input:focus,
+textarea:focus {
+  border: 2px solid var(--light-text-secondary);
+  outline: none;
+  box-shadow: none;
+}
+
 button {
-  align-self: center;
-  padding: 0.5rem 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
   background-color: var(--text-link);
   color: var(--light-background);
+  font-family: "PT Sans", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  align-self: center;
   cursor: pointer;
 }
 
 button:hover {
   background-color: var(--light-text-link-hover);
-}
-
-footer {
-  text-align: center;
-  padding-bottom: 2rem;
-  position: static;
-  opacity: 50%;
 }
 
 ul li {
@@ -197,7 +205,7 @@ ul li {
 
 ol li {
   list-style: decimal;
-  margin-left: 1rem;
+  margin-left: 1.25rem;
 }
 
 a,
@@ -229,13 +237,100 @@ nav label {
     align-items: center;
   }
 
+  main {
+    margin: 7rem 2rem 0 2rem;
+  }
+
+  #projects,
+  #articles,
+  #contact {
+    margin: 7rem 2rem 0 2rem;
+  }
+
+  header,
+  footer {
+    margin: 0 2rem;
+  }
+
+  header,
+  main,
+  footer {
+    padding: 2rem 0;
+  }
+
   nav ul {
+    gap: 3rem;
+  }
+
+  .subcontent {
     gap: 2rem;
   }
 
+  .subcontent ul {
+    gap: 1rem;
+  }
+
+  #content,
+  #reviews ul {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  article h3 {
+    top: 6.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header,
+  footer {
+    margin: 0 3rem;
+  }
+
+  main {
+    margin: 7rem 3rem 0 3rem;
+  }
+
+  nav ul {
+    gap: 4rem;
+  }
+
+  #projects,
+  #articles,
+  #contact {
+    width: 100%;
+    margin: 7rem auto 0 auto;
+  }
+
   #hero {
-    margin-top: 5rem;
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 1536px) {
+  header,
+  main,
+  footer {
+    padding: 3rem 0;
+  }
+
+  header,
+  footer {
+    margin: 0 auto;
+  }
+
+  main {
+    margin: 7rem auto 0 auto;
+  }
+
+  #hero {
     padding: 12rem 0;
+  }
+
+  #projects,
+  #articles,
+  #contact {
+    max-width: 1024px;
   }
 
   .subcontent {
@@ -248,77 +343,7 @@ nav label {
 
   #content,
   #reviews ul {
-    flex-direction: row;
     gap: 3rem;
-  }
-
-  #articles,
-  #contact,
-  #projects {
-    margin-top: 8rem;
-    width: 100%;
-  }
-
-  article h3 {
-    top: 4.65rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  header,
-  main,
-  footer {
-    gap: 3rem;
-    margin: 0 3rem;
-  }
-
-  header {
-    margin: 0 3rem;
-  }
-
-  nav ul {
-    gap: 3rem;
-  }
-
-  #hero {
-    padding: 9rem 0;
-  }
-
-  .subcontent {
-    width: 33%;
-    gap: 2rem;
-  }
-
-  .subcontent ul {
-    gap: 1rem;
-  }
-
-  #articles,
-  #contact,
-  #projects {
-    margin: 8rem auto 0 auto;
-  }
-}
-
-@media (min-width: 1536px) {
-  header,
-  main,
-  footer {
-    margin: 0 auto;
-  }
-
-  header {
-    margin: 0 auto;
-  }
-
-  #hero {
-    padding: 18rem 0;
-  }
-
-  #articles,
-  #contact,
-  #projects {
-    max-width: 1024px;
   }
 }
 
@@ -330,6 +355,7 @@ nav label {
 
   header {
     background-color: var(--dark-background);
+    border-bottom: 1px solid var(--dark-text-secondary);
   }
 
   article h3 {
@@ -340,6 +366,12 @@ nav label {
   textarea {
     background-color: var(--dark-background);
     color: var(--dark-text-body);
+    border: 1px solid var(--dark-text-secondary);
+  }
+
+  input:focus,
+  textarea:focus {
+    border: 2px solid var(--dark-text-secondary);
   }
 
   a:hover,
@@ -352,5 +384,17 @@ nav label {
   }
   button:hover {
     background-color: var(--dark-text-link-hover);
+  }
+
+  .review {
+    border: 1px solid var(--dark-text-secondary);
+  }
+
+  .review div {
+    color: var(--dark-text-secondary);
+  }
+
+  footer {
+    color: var(--dark-text-secondary);
   }
 }

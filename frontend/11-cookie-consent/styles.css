@@ -22,8 +22,9 @@ body {
   font-family: "PT Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   text-align: left;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
 }
 
@@ -78,11 +79,12 @@ footer {
 }
 
 #cookie-buttons button {
+  font-family: "PT Sans", sans-serif;
+  font-size: medium;
   padding: 1rem 2rem;
   border-radius: 1rem;
   border: none;
   font-weight: 600;
-  letter-spacing: 0.05rem;
 }
 #cookie-buttons button:hover {
   cursor: pointer;
@@ -114,6 +116,13 @@ footer {
 }
 
 @media (min-width: 768px) {
+  header,
+  main,
+  footer {
+    margin: 0 2rem;
+    padding: 2rem 0;
+  }
+
   #cookie-container {
     left: auto;
     bottom: 1rem;
@@ -123,11 +132,12 @@ footer {
   }
 }
 
-@media (min-width: 1574px) {
+@media (min-width: 1536px) {
   header,
   main,
   footer {
     margin: 0 auto;
+    padding: 3rem 0;
   }
 }
 
