@@ -77,6 +77,17 @@ section {
   font-size: 1.25rem;
 }
 
+.accordion-title svg .minus {
+  display: none;
+}
+
+.accordion-title.active-title svg .plus {
+  display: none;
+}
+.accordion-title.active-title svg .minus {
+  display: block;
+}
+
 .accordion-content {
   height: 0;
   overflow: hidden;

@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
       activeContent.classList.toggle("active-content");
+      activeTitle.classList.toggle("active-title");
     });
   });
 });
