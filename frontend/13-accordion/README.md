@@ -1,6 +1,6 @@
 # Accordion
 
-Link: https://roadmap.sh/projects/accordion
+Live: https://mouhany.github.io/roadmap.sh/frontend/13-accordion/
 
 ## Key Requirements:
 

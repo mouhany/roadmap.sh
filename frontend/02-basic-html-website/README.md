@@ -1,6 +1,6 @@
 # Basic HTML Website
 
-Link: https://roadmap.sh/projects/basic-html-website
+Live: https://mouhany.github.io/roadmap.sh/frontend/02-basic-html-website/
 
 ## Key requirements:
 

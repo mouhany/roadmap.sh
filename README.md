@@ -144,5 +144,15 @@
       <td><a href="/frontend/13-accordion/">Accordion</a></td>
       <td><a href="https://roadmap.sh/projects/accordion">https://roadmap.sh/projects/accordion</a></td>
     </tr>
+    <tr>
+      <td>13</td>
+      <td>
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/14-age-calculator" target="_blank">
+          <img src="./frontend/14-age-calculator/preview/14-dark-laptop.png" alt="Age Calculator" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        </a>
+      </td>
+      <td><a href="/frontend/14-age-calculator/">Age Calculator</a></td>
+      <td><a href="https://roadmap.sh/projects/age-calculator">https://roadmap.sh/projects/age-calculator</a></td>
+    </tr>
   </tbody>
 </table>

@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Link: https://roadmap.sh/projects/portfolio-website
+Live: https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/
 
 ## Key requirements:
 

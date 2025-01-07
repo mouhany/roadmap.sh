@@ -1,6 +1,6 @@
 # Datepicker UI
 
-Link: https://roadmap.sh/projects/datepicker-ui
+Live: https://mouhany.github.io/roadmap.sh/frontend/06-datepicker-ui/
 
 ## Key Requirements:
 

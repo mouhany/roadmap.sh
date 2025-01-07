@@ -1,6 +1,6 @@
 # Tabs
 
-Link: https://roadmap.sh/projects/simple-tabs
+Live: https://mouhany.github.io/roadmap.sh/frontend/10-tabs/
 
 ## Key Requirements:
 

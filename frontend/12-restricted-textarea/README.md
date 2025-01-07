@@ -1,6 +1,6 @@
 # Restricted Textarea
 
-Link: https://roadmap.sh/projects/restricted-textarea
+Live: https://mouhany.github.io/roadmap.sh/frontend/12-restricted-textarea/
 
 ## Key Requirements:
 

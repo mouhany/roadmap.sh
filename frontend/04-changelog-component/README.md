@@ -1,6 +1,6 @@
 # Changelog
 
-Link: https://roadmap.sh/projects/changelog-component
+Live: https://mouhany.github.io/roadmap.sh/frontend/04-changelog-component/
 
 ## Key Requirements:
 

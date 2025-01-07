@@ -1,6 +1,6 @@
 # Single Page CV
 
-Link: https://roadmap.sh/projects/single-page-cv
+Live: https://mouhany.github.io/roadmap.sh/frontend/01-single-page-cv/
 
 ## Key requirements:
 

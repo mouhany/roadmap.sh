@@ -1,0 +1,15 @@
+{
+  "name": "14-age-calculator",
+  "version": "1.0.0",
+  "description": "An age calculator app built with Javascript Datepicker and Luxon",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-datepicker": "^5.18.3",
+    "luxon": "^3.5.0"
+  }
+}
