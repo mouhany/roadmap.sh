@@ -154,5 +154,15 @@
       <td><a href="/frontend/14-age-calculator/">Age Calculator</a></td>
       <td><a href="https://roadmap.sh/projects/age-calculator">https://roadmap.sh/projects/age-calculator</a></td>
     </tr>
+    <tr>
+      <td>15</td>
+      <td>
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/15-flash-cards" target="_blank">
+          <img src="./frontend/15-flash-cards/preview/15-light-laptop.png" alt="Flash Cards" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        </a>
+      </td>
+      <td><a href="/frontend/15-flash-cards/">Flash Cards</a></td>
+      <td><a href="https://roadmap.sh/projects/flash-cards">https://roadmap.sh/projects/flash-cards</a></td>
+    </tr>
   </tbody>
 </table>
