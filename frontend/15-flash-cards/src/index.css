@@ -230,18 +230,16 @@ svg {
     transform: translateY(-50%) translateX(-50%) rotate(0deg) translateX(20%);
   }
   25% {
-    transform: translateY(-50%) translateX(-50%) skew(-15deg, -15deg)
-      rotate(72deg) translateX(30%);
+    transform: translateY(-50%) translateX(-50%) rotate(90deg) translateX(30%);
   }
   50% {
-    transform: translateY(-50%) translateX(-50%) rotate(144deg) translateX(25%);
+    transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
   }
   75% {
-    transform: translateY(-50%) translateX(-50%) skew(15deg, 15deg)
-      rotate(216deg) translateX(15%);
+    transform: translateY(-50%) translateX(-50%) rotate(270deg) translateX(15%);
   }
   100% {
-    transform: translateY(-50%) translateX(-50%) rotate(288deg) translateX(20%);
+    transform: translateY(-50%) translateX(-50%) rotate(360deg) translateX(20%);
   }
 }
 @keyframes animation-gradient-2 {
