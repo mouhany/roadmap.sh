@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/roadmap.sh/15-flash-cards/"
+  base: "/roadmap.sh/frontend/15-flash-cards/"
 })

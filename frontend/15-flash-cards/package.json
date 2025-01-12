@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "homepage": "https://mouhany.github.io/roadmap.sh/15-flash-cards/",
+  "homepage": "https://mouhany.github.io/roadmap.sh/frontend/15-flash-cards/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
