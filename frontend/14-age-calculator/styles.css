@@ -99,6 +99,7 @@ label {
 #age-input input {
   font-family: "PT Sans", sans-serif;
   font-size: 100%;
+  width: 100%;
 }
 
 #age-input:focus-within {
