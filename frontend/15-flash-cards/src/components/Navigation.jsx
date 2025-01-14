@@ -59,6 +59,7 @@ Navigation.propTypes = {
   setCurrentIndex: PropTypes.func.isRequired,
   isFlipped: PropTypes.bool.isRequired,
   setIsFlipped: PropTypes.func.isRequired,
+  dataFlashCards: PropTypes.array.isRequired,
 };
 
 export default Navigation;
