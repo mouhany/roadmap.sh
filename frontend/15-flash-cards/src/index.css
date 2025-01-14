@@ -193,8 +193,6 @@ svg {
   width: 70%;
   height: 70%;
   animation-duration: 11s;
-  left: 60%;
-  top: 20%;
   z-index: -2;
   animation-name: animation-gradient-1;
 }
@@ -203,7 +201,6 @@ svg {
   width: 60%;
   height: 60%;
   animation-duration: 11s;
-  top: 60%;
   z-index: -1;
   animation-name: animation-gradient-2;
 }
@@ -212,8 +209,6 @@ svg {
   width: 50%;
   height: 50%;
   animation-duration: 11s;
-  left: 50%;
-  top: 80%;
   z-index: 0;
   animation-name: animation-gradient-3;
 }
@@ -227,62 +222,54 @@ svg {
 
 @keyframes animation-gradient-1 {
   0% {
-    transform: translateY(-50%) translateX(-50%) rotate(0deg) translateX(20%);
+    transform: translate(0, 0) rotate(0deg);
   }
   25% {
-    transform: translateY(-50%) translateX(-50%) rotate(90deg) translateX(30%);
+    transform: translate(calc(100vw - 100%), 0) rotate(90deg) skew(15deg, 15deg);
   }
   50% {
-    transform: translateY(-50%) translateX(-50%) rotate(180deg) translateX(25%);
+    transform: translate(calc(100vw - 100%), calc(100vh - 100%)) rotate(180deg);
   }
   75% {
-    transform: translateY(-50%) translateX(-50%) rotate(270deg) translateX(15%);
+    transform: translate(0, calc(100vh - 100%)) rotate(270deg)
+      skew(15deg, 15deg);
   }
   100% {
-    transform: translateY(-50%) translateX(-50%) rotate(360deg) translateX(20%);
+    transform: translate(0, 0) rotate(360deg);
   }
 }
 @keyframes animation-gradient-2 {
   0% {
-    transform: translateY(-50%) translateX(-50%) rotate(40deg) translateX(-20%);
+    transform: translate(0, calc(100vh - 100%)) rotate(0deg) skew(15deg, 15deg);
   }
   25% {
-    transform: translateY(-50%) translateX(0%) skew(15deg, 15deg) rotate(110deg)
-      translateX(-5%);
+    transform: translate(0, 0) rotate(-90deg);
   }
   50% {
-    transform: translateY(-50%) translateX(50%) rotate(210deg) translateX(-35%);
+    transform: translate(calc(100vw - 100%), 0) rotate(-180deg) skew(15deg, 15deg);
   }
   75% {
-    transform: translateY(-50%) translateX(50%) skew(-15deg, -15deg)
-      rotate(300deg) translateX(-10%);
+    transform: translate(calc(100vw - 100%), calc(100vh - 100%)) rotate(-270deg);
   }
   100% {
-    transform: translateY(-50%) translateX(-50%) rotate(400deg) translateX(-20%);
+    transform: translate(0, calc(100vh - 100%)) rotate(-360deg) skew(15deg, 15deg);
   }
 }
 @keyframes animation-gradient-3 {
   0% {
-    transform: translateY(-50%) translateX(-50%) translateX(-15%)
-      translateY(10%);
+    transform: translate(calc(100vw - 100%), calc(100vh - 100%)) rotate(360deg);
   }
-  20% {
-    transform: translateY(-50%) translateX(-50%) translateX(20%)
-      translateY(-30%);
+  25% {
+    transform: translate(0, calc(100vh - 100%)) rotate(180deg) scale(1.25);
   }
-  40% {
-    transform: translateY(-50%) translateX(-50%) translateX(-25%)
-      translateY(-15%);
+  50% {
+    transform: translate(0, 0) rotate(360deg);
   }
-  60% {
-    transform: translateY(-50%) translateX(-50%) translateX(30%) translateY(20%);
-  }
-  80% {
-    transform: translateY(-50%) translateX(-50%) translateX(5%) translateY(35%);
+  75% {
+    transform: translate(calc(100vw - 100%), 0) rotate(180deg) scale(1.25);
   }
   100% {
-    transform: translateY(-50%) translateX(-50%) translateX(-15%)
-      translateY(10%);
+    transform: translate(calc(100vw - 100%), calc(100vh - 100%)) rotate(360deg);
   }
 }
 
