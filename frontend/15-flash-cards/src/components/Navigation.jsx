@@ -32,13 +32,13 @@ function Navigation(props) {
       </button>
       <button
         onClick={() => {
-          if (props.currentIndex < 19) {
+          if (props.currentIndex < props.dataFlashCards.length - 1) {
             props.setCurrentIndex(props.currentIndex + 1);
             props.setIsFlipped(false);
           }
         }}
         aria-label="Next"
-        className={props.currentIndex < 19 ? "enable" : "disable"}
+        className={props.currentIndex < props.dataFlashCards.length - 1 ? "enable" : "disable"}
       >
         <span>Next</span>
         <svg

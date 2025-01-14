@@ -25,6 +25,7 @@ function FlashCardContainer() {
           isFlipped={isFlipped}
         />
         <Navigation
+          dataFlashCards={dataFlashCards}
           currentIndex={currentIndex}
           setCurrentIndex={setCurrentIndex}
           isFlipped={isFlipped}
