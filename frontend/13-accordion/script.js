@@ -8,11 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
     activeTitle.addEventListener("click", () => {
+      accordionTitles.forEach((title) => {
+        if (title !== activeTitle) {
+          title.classList.remove("active-title");
+        }
+      });
       accordionContents.forEach((content) => {
         if (content !== activeContent) {
           content.classList.remove("active-content");
         }
       });
+
       activeContent.classList.toggle("active-content");
       activeTitle.classList.toggle("active-title");
     });
