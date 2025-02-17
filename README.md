@@ -21,7 +21,7 @@
           <img src="./frontend/01-single-page-cv/1-single-page-cv.png" alt="Single Page CV" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/01-single-page-cv/">Single Page CV</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/01-single-page-cv/">Single Page CV</a></td>
       <td><a href="https://roadmap.sh/projects/single-page-cv">https://roadmap.sh/projects/single-page-cv</a></td>
     </tr>
     <tr>
@@ -31,7 +31,7 @@
           <img src="./frontend/02-basic-html-website/preview/2-basic-html-website-index.png" alt="Basic HTML Website" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/02-basic-html-website/">Basic HTML Website</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/02-basic-html-website/">Basic HTML Website</a></td>
       <td><a href="https://roadmap.sh/projects/basic-html-website">https://roadmap.sh/projects/basic-html-website</a></td>
     </tr>
     <tr>
@@ -41,7 +41,7 @@
           <img src="./frontend/03-personal-portfolio/preview/3-light-laptop-index.png" alt="Personal Portfolio" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/03-personal-portfolio/">Personal Portfolio</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/03-personal-portfolio/">Personal Portfolio</a></td>
       <td><a href="https://roadmap.sh/projects/portfolio-website">https://roadmap.sh/projects/portfolio-website</a></td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@
           <img src="./frontend/04-changelog-component/preview/4-dark-laptop.png" alt="Changelog Component" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/04-changelog-component/">Changelog Component</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/04-changelog-component/">Changelog Component</a></td>
       <td><a href="https://roadmap.sh/projects/changelog-component">https://roadmap.sh/projects/changelog-component</a></td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
           <img src="./frontend/05-testimonial-cards/preview/5-light-laptop.png" alt="Testimonial Cards" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/05-testimonial-cards/">Testimonial Cards</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/05-testimonial-cards/">Testimonial Cards</a></td>
       <td><a href="https://roadmap.sh/projects/testimonial-cards">https://roadmap.sh/projects/testimonial-cards</a></td>
     </tr>
     <tr>
@@ -71,7 +71,7 @@
           <img src="./frontend/06-datepicker-ui/preview/6-dark-laptop.png" alt="Datepicker UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/06-datepicker-ui/">Datepicker UI</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/06-datepicker-ui/">Datepicker UI</a></td>
       <td><a href="https://roadmap.sh/projects/datepicker-ui">https://roadmap.sh/projects/datepicker-ui</a></td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@
           <img src="./frontend/07-accessible-form-ui/preview/7-light-laptop.png" alt="Accessible Form UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/07-accessible-form-ui/">Accessible Form UI</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/07-accessible-form-ui/">Accessible Form UI</a></td>
       <td><a href="https://roadmap.sh/projects/accessible-form-ui">https://roadmap.sh/projects/accessible-form-ui</a></td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@
           <img src="./frontend/08-image-grid-layout/preview/8-dark-laptop.png" alt="Image Grid Layout" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/08-image-grid-layout/">Image Grid Layout</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/08-image-grid-layout/">Image Grid Layout</a></td>
       <td><a href="https://roadmap.sh/projects/image-grid">https://roadmap.sh/projects/image-grid</a></td>
     </tr>
     <tr>
@@ -101,7 +101,7 @@
           <img src="./frontend/09-tooltip-ui/preview/9-light-laptop.png" alt="Tooltip UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/09-tooltip-ui/">Tooltip UI</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/09-tooltip-ui/">Tooltip UI</a></td>
       <td><a href="https://roadmap.sh/projects/tooltip-ui">https://roadmap.sh/projects/tooltip-ui</a></td>
     </tr>
     <tr>
@@ -111,7 +111,7 @@
           <img src="./frontend/10-tabs/preview/10-dark-laptop.png" alt="Tabs" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/10-tabs/">Tabs</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/10-tabs/">Tabs</a></td>
       <td><a href="https://roadmap.sh/projects/simple-tabs">https://roadmap.sh/projects/simple-tabs</a></td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@
           <img src="./frontend/11-cookie-consent/preview/11-light-laptop.png" alt="Cookie Consent" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/11-cookie-consent/">Cookie Consent</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/11-cookie-consent/">Cookie Consent</a></td>
       <td><a href="https://roadmap.sh/projects/cookie-consent">https://roadmap.sh/projects/cookie-consent</a></td>
     </tr>
     <tr>
@@ -131,7 +131,7 @@
           <img src="./frontend/12-restricted-textarea/preview/12-dark-laptop.png" alt="Restricted Textarea" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/12-restricted-textarea/">Restricted Textarea</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/12-restricted-textarea/">Restricted Textarea</a></td>
       <td><a href="https://roadmap.sh/projects/restricted-textarea">https://roadmap.sh/projects/restricted-textarea</a></td>
     </tr>
     <tr>
@@ -141,7 +141,7 @@
           <img src="./frontend/13-accordion/preview/13-light-laptop.png" alt="Accordion" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/13-accordion/">Accordion</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/13-accordion/">Accordion</a></td>
       <td><a href="https://roadmap.sh/projects/accordion">https://roadmap.sh/projects/accordion</a></td>
     </tr>
     <tr>
@@ -151,7 +151,7 @@
           <img src="./frontend/14-age-calculator/preview/14-dark-laptop.png" alt="Age Calculator" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/14-age-calculator/">Age Calculator</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/14-age-calculator/">Age Calculator</a></td>
       <td><a href="https://roadmap.sh/projects/age-calculator">https://roadmap.sh/projects/age-calculator</a></td>
     </tr>
     <tr>
@@ -161,7 +161,7 @@
           <img src="./frontend/15-flash-cards/preview/15-light-laptop.png" alt="Flash Cards" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="/frontend/15-flash-cards/">Flash Cards</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/15-flash-cards/">Flash Cards</a></td>
       <td><a href="https://roadmap.sh/projects/flash-cards">https://roadmap.sh/projects/flash-cards</a></td>
     </tr>
   </tbody>
