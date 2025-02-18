@@ -14,7 +14,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/09-tooltip-ui/
 
 | Screen                 | Preview Light                                   | Preview Dark                                  |
 | ---------------------- | ----------------------------------------------- | --------------------------------------------- |
-| 24-inch Desktop Screen | ![Desktop Light](./preview/9-light-desktop.png) | ![Desktop Dark](./preview/9-dark-desktop.png) |
-| 13-inch Laptop Screen  | ![Laptop Light](./preview/9-light-laptop.png)   | ![Laptop Dark](./preview/9-dark-laptop.png)   |
-| Tablet Screen          | ![Tablet Light](./preview/9-light-tablet.png)   | ![Tablet Dark](./preview/9-dark-tablet.png)   |
-| Mobile Screen          | ![Mobile Light](./preview/9-light-mobile.png)   | ![Mobile Dark](./preview/9-dark-mobile.png)   |
+| 24-inch Desktop Screen | ![Desktop Light](./preview/09-light-desktop.png) | ![Desktop Dark](./preview/09-dark-desktop.png) |
+| 13-inch Laptop Screen  | ![Laptop Light](./preview/09-light-laptop.png)   | ![Laptop Dark](./preview/09-dark-laptop.png)   |
+| Tablet Screen          | ![Tablet Light](./preview/09-light-tablet.png)   | ![Tablet Dark](./preview/09-dark-tablet.png)   |
+| Mobile Screen          | ![Mobile Light](./preview/09-light-mobile.png)   | ![Mobile Dark](./preview/09-dark-mobile.png)   |

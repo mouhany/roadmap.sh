@@ -12,9 +12,9 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/02-basic-html-website/
 
 ## Preview
 
-| Page     | Preview                                                          |
-| -------- | ---------------------------------------------------------------- |
-| Index    | ![Preview Index](./preview/2-basic-html-website-index.png)       |
-| Projects | ![Preview Projects](./preview/2-basic-html-website-projects.png) |
-| Articles | ![Preview Articles](./preview/2-basic-html-website-articles.png) |
-| Contact  | ![Preview Contact](./preview/2-basic-html-website-contact.png)   |
+| Page     | Preview                                                     |
+| -------- | ----------------------------------------------------------- |
+| Index    | ![Preview Index](./preview/02-light-laptop.png)             |
+| Projects | ![Preview Projects](./preview/02-light-laptop-projects.png) |
+| Articles | ![Preview Articles](./preview/02-light-laptop-articles.png) |
+| Contact  | ![Preview Contact](./preview/02-light-laptop-contact.png)   |

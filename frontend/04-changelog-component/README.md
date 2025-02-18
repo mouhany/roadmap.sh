@@ -12,7 +12,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/04-changelog-component/
 
 | Screen                 | Preview Light                                   | Preview Dark                                  |
 | ---------------------- | ----------------------------------------------- | --------------------------------------------- |
-| 24-inch Desktop Screen | ![Desktop Light](./preview/4-light-desktop.png) | ![Desktop Dark](./preview/4-dark-desktop.png) |
-| 13-inch Laptop Screen  | ![Laptop Light](./preview/4-light-laptop.png)   | ![Laptop Dark](./preview/4-dark-laptop.png)   |
-| Tablet Screen          | ![Tablet Light](./preview/4-light-tablet.png)   | ![Tablet Dark](./preview/4-dark-tablet.png)   |
-| Mobile Screen          | ![Mobile Light](./preview/4-light-mobile.png)   | ![Mobile Dark](./preview/4-dark-mobile.png)   |
+| 24-inch Desktop Screen | ![Desktop Light](./preview/04-light-desktop.png) | ![Desktop Dark](./preview/04-dark-desktop.png) |
+| 13-inch Laptop Screen  | ![Laptop Light](./preview/04-light-laptop.png)   | ![Laptop Dark](./preview/04-dark-laptop.png)   |
+| Tablet Screen          | ![Tablet Light](./preview/04-light-tablet.png)   | ![Tablet Dark](./preview/04-dark-tablet.png)   |
+| Mobile Screen          | ![Mobile Light](./preview/04-light-mobile.png)   | ![Mobile Dark](./preview/04-dark-mobile.png)   |

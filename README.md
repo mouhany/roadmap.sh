@@ -18,7 +18,7 @@
       <td>1</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/01-single-page-cv/" target="_blank">
-          <img src="./frontend/01-single-page-cv/1-single-page-cv.png" alt="Single Page CV" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/01-single-page-cv/preview/01-light-laptop.png" alt="Single Page CV" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/01-single-page-cv/">Single Page CV</a></td>
@@ -28,7 +28,7 @@
       <td>2</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/02-basic-html-website/" target="_blank">
-          <img src="./frontend/02-basic-html-website/preview/2-basic-html-website-index.png" alt="Basic HTML Website" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/02-basic-html-website/preview/02-light-laptop.png" alt="Basic HTML Website" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/02-basic-html-website/">Basic HTML Website</a></td>
@@ -38,7 +38,7 @@
       <td>3</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/" target="_blank">
-          <img src="./frontend/03-personal-portfolio/preview/3-light-laptop-index.png" alt="Personal Portfolio" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/03-personal-portfolio/preview/03-light-laptop.png" alt="Personal Portfolio" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/03-personal-portfolio/">Personal Portfolio</a></td>
@@ -48,7 +48,7 @@
       <td>4</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/04-changelog-component/" target="_blank">
-          <img src="./frontend/04-changelog-component/preview/4-dark-laptop.png" alt="Changelog Component" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/04-changelog-component/preview/04-dark-laptop.png" alt="Changelog Component" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/04-changelog-component/">Changelog Component</a></td>
@@ -58,7 +58,7 @@
       <td>5</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/05-testimonial-cards/" target="_blank">
-          <img src="./frontend/05-testimonial-cards/preview/5-light-laptop.png" alt="Testimonial Cards" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/05-testimonial-cards/preview/05-light-laptop.png" alt="Testimonial Cards" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/05-testimonial-cards/">Testimonial Cards</a></td>
@@ -68,7 +68,7 @@
       <td>6</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/06-datepicker-ui/" target="_blank">
-          <img src="./frontend/06-datepicker-ui/preview/6-dark-laptop.png" alt="Datepicker UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/06-datepicker-ui/preview/06-dark-laptop.png" alt="Datepicker UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/06-datepicker-ui/">Datepicker UI</a></td>
@@ -78,7 +78,7 @@
       <td>7</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/07-accessible-form-ui/" target="_blank">
-          <img src="./frontend/07-accessible-form-ui/preview/7-light-laptop.png" alt="Accessible Form UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/07-accessible-form-ui/preview/07-light-laptop.png" alt="Accessible Form UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/07-accessible-form-ui/">Accessible Form UI</a></td>
@@ -88,7 +88,7 @@
       <td>8</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/08-image-grid-layout/" target="_blank">
-          <img src="./frontend/08-image-grid-layout/preview/8-dark-laptop.png" alt="Image Grid Layout" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/08-image-grid-layout/preview/08-dark-laptop.png" alt="Image Grid Layout" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/08-image-grid-layout/">Image Grid Layout</a></td>
@@ -98,7 +98,7 @@
       <td>9</td>
       <td>
         <a href="https://mouhany.github.io/roadmap.sh/frontend/09-tooltip-ui/" target="_blank">
-          <img src="./frontend/09-tooltip-ui/preview/9-light-laptop.png" alt="Tooltip UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+          <img src="./frontend/09-tooltip-ui/preview/09-light-laptop.png" alt="Tooltip UI" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
       <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/09-tooltip-ui/">Tooltip UI</a></td>

@@ -12,4 +12,4 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/01-single-page-cv/
 
 ## Preview
 
-![Single Page CV](./1-single-page-cv.png)
+![Single Page CV](./preview/01-light-laptop.png)
