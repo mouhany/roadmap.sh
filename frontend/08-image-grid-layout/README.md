@@ -13,7 +13,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/08-image-grid-layout/
 
 | Screen                 | Preview Light                                   | Preview Dark                                  |
 | ---------------------- | ----------------------------------------------- | --------------------------------------------- |
-| 24-inch Desktop Screen | ![Desktop Light](./preview/8-light-desktop.png) | ![Desktop Dark](./preview/8-dark-desktop.png) |
-| 13-inch Laptop Screen  | ![Laptop Light](./preview/8-light-laptop.png)   | ![Laptop Dark](./preview/8-dark-laptop.png)   |
-| Tablet Screen          | ![Tablet Light](./preview/8-light-tablet.png)   | ![Tablet Dark](./preview/8-dark-tablet.png)   |
-| Mobile Screen          | ![Mobile Light](./preview/8-light-mobile.png)   | ![Mobile Dark](./preview/8-dark-mobile.png)   |
+| 24-inch Desktop Screen | ![Desktop Light](./preview/08-light-desktop.png) | ![Desktop Dark](./preview/08-dark-desktop.png) |
+| 13-inch Laptop Screen  | ![Laptop Light](./preview/08-light-laptop.png)   | ![Laptop Dark](./preview/08-dark-laptop.png)   |
+| Tablet Screen          | ![Tablet Light](./preview/08-light-tablet.png)   | ![Tablet Dark](./preview/08-dark-tablet.png)   |
+| Mobile Screen          | ![Mobile Light](./preview/08-light-mobile.png)   | ![Mobile Dark](./preview/08-dark-mobile.png)   |
