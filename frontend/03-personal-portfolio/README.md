@@ -21,7 +21,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/
 
 | Page     | Preview Light                                             | Preview Dark                                            |
 | -------- | --------------------------------------------------------- | ------------------------------------------------------- |
-| Index    | ![Index Light](./preview/03-light-desktop-index.png)       | ![Index Dark](./preview/03-dark-desktop-index.png)       |
+| Index    | ![Index Light](./preview/03-light-desktop.png)       | ![Index Dark](./preview/03-dark-desktop.png)       |
 | Projects | ![Projects Light](./preview/03-light-desktop-projects.png) | ![Projects Dark](./preview/03-dark-desktop-projects.png) |
 | Articles | ![Articles Light](./preview/03-light-desktop-articles.png) | ![Articles Dark](./preview/03-dark-desktop-articles.png) |
 | Contact  | ![Contact Light](./preview/03-light-desktop-contact.png)   | ![Contact Dark](./preview/03-dark-desktop-contact.png)   |
@@ -39,7 +39,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/
 
 | Page     | Preview Light                                            | Preview Dark                                           |
 | -------- | -------------------------------------------------------- | ------------------------------------------------------ |
-| Index    | ![Index Light](./preview/03-light-tablet-index.png)       | ![Index Dark](./preview/03-dark-tablet-index.png)       |
+| Index    | ![Index Light](./preview/03-light-tablet.png)       | ![Index Dark](./preview/03-dark-tablet.png)       |
 | Projects | ![Projects Light](./preview/03-light-tablet-projects.png) | ![Projects Dark](./preview/03-dark-tablet-projects.png) |
 | Articles | ![Articles Light](./preview/03-light-tablet-articles.png) | ![Articles Dark](./preview/03-dark-tablet-articles.png) |
 | Contact  | ![Contact Light](./preview/03-light-tablet-contact.png)   | ![Contact Dark](./preview/03-dark-tablet-contact.png)   |
@@ -48,7 +48,7 @@ Live: https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/
 
 | Page     | Preview Light                                            | Preview Dark                                           |
 | -------- | -------------------------------------------------------- | ------------------------------------------------------ |
-| Index    | ![Index Light](./preview/03-light-mobile-index.png)       | ![Index Dark](./preview/03-dark-mobile-index.png)       |
+| Index    | ![Index Light](./preview/03-light-mobile.png)       | ![Index Dark](./preview/03-dark-mobile.png)       |
 | Projects | ![Projects Light](./preview/03-light-mobile-projects.png) | ![Projects Dark](./preview/03-dark-mobile-projects.png) |
 | Articles | ![Articles Light](./preview/03-light-mobile-articles.png) | ![Articles Dark](./preview/03-dark-mobile-articles.png) |
 | Contact  | ![Contact Light](./preview/03-light-mobile-contact.png)   | ![Contact Dark](./preview/03-dark-mobile-contact.png)   |
