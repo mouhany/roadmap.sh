@@ -1,6 +1,6 @@
 # Image Grid Layout
 
-Live: https://mouhany.github.io/roadmap.sh/frontend/08-image-grid-layout/
+Live: https://mouhany.github.io/roadmap.sh/frontend/08-image-grid/
 
 ## Key Requirements:
 
