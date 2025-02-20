@@ -37,11 +37,11 @@
     <tr>
       <td>3</td>
       <td>
-        <a href="https://mouhany.github.io/roadmap.sh/frontend/03-personal-portfolio/" target="_blank">
-          <img src="./frontend/03-personal-portfolio/preview/03-light-laptop.png" alt="Personal Portfolio" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/03-portfolio-website/" target="_blank">
+          <img src="./frontend/03-portfolio-website/preview/03-light-laptop.png" alt="Personal Portfolio" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/03-personal-portfolio/">Personal Portfolio</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/03-portfolio-website/">Personal Portfolio</a></td>
       <td><a href="https://roadmap.sh/projects/portfolio-website">https://roadmap.sh/projects/portfolio-website</a></td>
     </tr>
     <tr>
@@ -87,11 +87,11 @@
     <tr>
       <td>8</td>
       <td>
-        <a href="https://mouhany.github.io/roadmap.sh/frontend/08-image-grid-layout/" target="_blank">
-          <img src="./frontend/08-image-grid-layout/preview/08-dark-laptop.png" alt="Image Grid Layout" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/08-image-grid/" target="_blank">
+          <img src="./frontend/08-image-grid/preview/08-dark-laptop.png" alt="Image Grid Layout" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/08-image-grid-layout/">Image Grid Layout</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/08-image-grid/">Image Grid Layout</a></td>
       <td><a href="https://roadmap.sh/projects/image-grid">https://roadmap.sh/projects/image-grid</a></td>
     </tr>
     <tr>
@@ -107,11 +107,11 @@
     <tr>
       <td>10</td>
       <td>
-        <a href="https://mouhany.github.io/roadmap.sh/frontend/10-tabs/" target="_blank">
-          <img src="./frontend/10-tabs/preview/10-dark-laptop.png" alt="Tabs" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
+        <a href="https://mouhany.github.io/roadmap.sh/frontend/10-simple-tabs/" target="_blank">
+          <img src="./frontend/10-simple-tabs/preview/10-dark-laptop.png" alt="Tabs" style="width: 480px; height: auto; object-fit: cover; object-position:top;" />
         </a>
       </td>
-      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/10-tabs/">Tabs</a></td>
+      <td><a href="https://github.com/mouhany/roadmap.sh/tree/main/frontend/10-simple-tabs/">Tabs</a></td>
       <td><a href="https://roadmap.sh/projects/simple-tabs">https://roadmap.sh/projects/simple-tabs</a></td>
     </tr>
     <tr>
